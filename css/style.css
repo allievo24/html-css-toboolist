@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+  background-color: #B1BBF8;
+}
+
+
+#text-logo{
+  font-size:20px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  vertical-align: middle;
+
+}
+#img-logo{
+  vertical-align: middle;
+  
+}
+.container{
+  width: 600px;
+  height: 700px;
+  background-color:white;
+  margin: auto;
+  border-radius: 1%;
+}
+
+.bottoni{
+  width: 80px;
+  height:25px ;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 40px;
+  background-color: #5CB7F2;
+  border-radius: 12%;
+  
+}
+.bottoni2{
+  width: 100px;
+  height:25px ;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 12%;
+}
+hr{
+  height: 5px;
+  margin-top: 10px;
+  background-color: #B1BBF8;
+}
+.New-Task ::after{
+  content:\2BC6 ;
+}
+strong::before{
+  content: \2BC6;
+  
+}
+
+
