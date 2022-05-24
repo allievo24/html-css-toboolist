@@ -6,20 +6,25 @@
 body{
   background-color: #B1BBF8;
 }
+header{
+  background-color: white;
+}
 
-
+/*serve a stilizzare il testo del logo toboolist*/
 #text-logo{
-  font-size:20px ;
+  font-size:35px ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   vertical-align: middle;
-
+  background-color: white;
 }
+
+/* serve a centrare il logo*/
 #img-logo{
   vertical-align: middle;
-  
 }
+/*serve a dare forma al contenitore bianco*/
 .container{
-  width: 600px;
+  width: 580px;
   height: 700px;
   background-color:white;
   margin: auto;
@@ -100,21 +105,11 @@ h3{
   text-align: center;
   line-height: 20px;
 }
-
-
-
-.News{
-  margin-left: 50px;
-  margin-top:20px ;
-  font-size: 20px;
-  margin-bottom: 20;
-
-}
+/* serve a togliere i punti o i numeri di defult dalle 
+liste*/
 
 .lista {
   list-style: none;
-  
-  
 }
 
 .lista li {
@@ -122,10 +117,11 @@ h3{
   margin-left: 40px;
   margin-top: 25px;
   margin-bottom: 20px;
-  
 }
+
+/*serve a stilizare i le pillole*/
 .goal{
-  background-color: rgb(94, 46, 94);
+  background-color: #9C72E4;
   border-radius:10px;
   font-size:  10px;
   padding:  5px;
@@ -134,7 +130,7 @@ h3{
   display: inline-block 
 }
 .Recruiting{
-  background-color: green;
+  background-color: #64C0A9;
   border-radius:10px;
   font-size:  10px;
   padding:  5px;
@@ -143,7 +139,7 @@ h3{
   display: inline-block 
 }
 .mobile{
-  background-color: #5CB7F2;
+  background-color: #F29E33;
   border-radius:10px;
   font-size:  10px;
   padding:  7px;
@@ -152,8 +148,9 @@ h3{
   display: inline-block
   text-align : center;
 }
+
 .Web{
-  background-color: #5CB7F2;
+  background-color: #D863A1;
   border-radius:10px;
   font-size:  10px;
   padding:  7px;
@@ -162,6 +159,18 @@ h3{
   display: inline-block
   text-align : center;
 }
+
+.sales{
+  background-color: #B0C926;
+  border-radius:10px;
+  font-size:  10px;
+  padding:  7px;
+  color: white;
+  height: 20px;
+  display: inline-block
+  text-align : center;
+}
+
 
 
 
